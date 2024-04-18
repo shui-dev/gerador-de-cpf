@@ -3,3 +3,8 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Mono&display=swap');
+
+#copyAlert.copied {
+  bottom: 192px;
+  opacity: 100%;
+}

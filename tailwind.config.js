@@ -6,7 +6,22 @@ module.exports = {
       'inter': ['Inter'],
       'space': ['Space Mono'],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        copied: {
+          "0%": {
+            opacity: "0%",
+          },
+          "100%": {
+            bottom: "192px",
+            opacity: "100%",
+          }
+        }
+      }
+    },
+    animation: {
+      "copied": "copied 2s"
+    },
   },
   plugins: [],
 }
